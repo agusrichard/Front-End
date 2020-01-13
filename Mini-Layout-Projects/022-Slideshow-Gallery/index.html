@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="author" content="Agus Richard">
+	<meta name="description" content="Slideshow Gallery">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<title>Slideshow Gallery</title>
+</head>
+<body>
+<div class="container">
+	<div class="slides fade">
+		<div class="numbertext">1 / 10</div>
+		<img src="images/image1.jpg" alt="image1" class="image">
+	</div>
+
+	<div class="slides fade">
+		<div class="numbertext">2 / 10</div>
+		<img src="images/image2.jpg" alt="image2" class="image">
+	</div>
+
+	<div class="slides fade">
+		<div class="numbertext">3 / 10</div>
+		<img src="images/image3.jpg" alt="image3" class="image">
+	</div>
+
+	<div class="slides fade">
+		<div class="numbertext">4 / 10</div>
+		<img src="images/image4.jpg" alt="image4" class="image">
+	</div>
+
+	<div class="slides fade">
+		<div class="numbertext">5 / 10</div>
+		<img src="images/image5.jpg" alt="image5" class="image">
+	</div>
+
+	<div class="slides fade">
+		<div class="numbertext">6 / 10</div>
+		<img src="images/image6.jpg" alt="image6" class="image">
+	</div>
+
+	<div class="slides fade">
+		<div class="numbertext">7 / 10</div>
+		<img src="images/image7.jpg" alt="image7" class="image">
+	</div>
+
+	<div class="slides fade">
+		<div class="numbertext">8 / 10</div>
+		<img src="images/image8.jpg" alt="image8" class="image">
+	</div>
+
+	<div class="slides fade">
+		<div class="numbertext">9 / 10</div>
+		<img src="images/image9.jpg" alt="image9" class="image">
+	</div>
+
+	<div class="slides fade">
+		<div class="numbertext">10 / 10</div>
+		<img src="images/image10.jpg" alt="image10" class="image">
+	</div>
+
+	<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+	<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+	<div class="caption-container">
+		<p id="caption"></p>
+	</div>
+
+	<div class="row">
+		<div class="column">
+			<img class="demo cursor image-thumbnail" src="images/image1.jpg" alt="image1" onclick="currentSlide(1)">
+		</div>
+		<div class="column">
+			<img class="demo cursor image-thumbnail" src="images/image2.jpg" alt="image2" onclick="currentSlide(2)">
+		</div>
+		<div class="column">
+			<img class="demo cursor image-thumbnail" src="images/image3.jpg" alt="image3" onclick="currentSlide(3)">
+		</div>
+		<div class="column">
+			<img class="demo cursor image-thumbnail" src="images/image4.jpg" alt="image4" onclick="currentSlide(4)">
+		</div>
+		<div class="column">
+			<img class="demo cursor image-thumbnail" src="images/image5.jpg" alt="image5" onclick="currentSlide(5)">
+		</div>
+		<div class="column">
+			<img class="demo cursor image-thumbnail" src="images/image6.jpg" alt="image6" onclick="currentSlide(6)">
+		</div>
+		<div class="column">
+			<img class="demo cursor image-thumbnail" src="images/image7.jpg" alt="image7" onclick="currentSlide(7)">
+		</div>
+		<div class="column">
+			<img class="demo cursor image-thumbnail" src="images/image8.jpg" alt="image8" onclick="currentSlide(8)">
+		</div>
+		<div class="column">
+			<img class="demo cursor image-thumbnail" src="images/image9.jpg" alt="image9" onclick="currentSlide(9)">
+		</div>
+		<div class="column">
+			<img class="demo cursor image-thumbnail" src="images/image10.jpg" alt="image10" onclick="currentSlide(10)">
+		</div>
+	</div>
+</div>
+	
+<script src="script.js"></script>
+</body>
+</html>
