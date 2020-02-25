@@ -1,0 +1,88 @@
+:root {
+  --first-color: #535353;
+  --second-color: #6868b0;
+  --third-color: #759357;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Jumbtron */
+
+.jumbotron {
+  background: var(--second-color);
+  height: 7rem;
+  width: 100%;
+}
+
+.jumbotron > div {
+  text-align: center;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.jumbotron h1 {
+  color: #fff;
+  font-size: 3rem;
+}
+
+.jumbotron p {
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+/* Navbar */
+.navbar {
+  height: 3rem;
+  background: var(--first-color);
+}
+
+.navbar .container {
+  width: 90%;
+  margin: auto;
+}
+
+.navbar .container::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.navbar .left {
+  float: left;
+}
+
+.navbar .right {
+  float: right;
+}
+
+.navbar .container a {
+  display: block;
+  height: 3rem;
+  line-height: 3rem;
+  padding: 0 0.5rem;
+}
+
+.navbar .container a:hover {
+  background: #000;
+}
+
+.navbar .container li:nth-child(3) ul {
+  background: red;
+  position: relative;
+  top: -3rem;
+  left: 106px;
+}
