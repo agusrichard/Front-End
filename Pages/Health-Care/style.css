@@ -132,14 +132,14 @@ ol {
 }
 
 ol li {
-  font-size: 38px;
+  font-size: 42px;
   position: relative;
   margin-bottom: 20px;
   border-bottom: 2px solid #ebebeb
 }
 
 li p {
-  font-size: 18px;
+  font-size: 20px;
   color: #000;
   padding-left: 60px;
   line-height: 30px;
@@ -150,4 +150,105 @@ li span {
   position: absolute;
   line-height: 25px;
   font-weight: 500;
+}
+
+/* INFO SECTION */
+.info {
+  height: 650px;
+}
+
+.info-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.info-cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px 0 40px 0;
+}
+
+.info-cards .card {
+  position: relative;
+  height: 360px;
+  width: 350px;
+  background: #fff;
+  box-shadow: 0 10px 22px rgba(0,0,0,0.09), 0 10px 10px rgba(0,0,0,0.9);
+}
+
+.info-cards .one .card-one-img {
+  width: 150px;
+  position: absolute;
+  top: -50px;
+  right: -50px;
+}
+
+.info-cards .two .card-two-img {
+  width: 130px;
+  position: absolute;
+  top: -50px;
+  right: -50px;
+}
+
+.info-cards .three .card-three-img {
+  width: 220px;
+  position: absolute;
+  top: -50px;
+  right: -50px;
+}
+
+.card-bg-one {
+  height: 150px;
+  background-color: #ffce63;
+}
+
+.card-bg-two {
+  height: 150px;
+  background-color: #a1cdff;
+}
+
+.card-bg-three {
+  height: 150px;
+  background-color: #ffce63;
+}
+
+.card-content {
+  padding: 0 20px;
+}
+
+.card-content h2 {
+  font-weight: 600;
+}
+
+.card-content p {
+  line-height: 50px;
+  opacity: 0.6;
+}
+
+.card-content .card-btn {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  padding: 5px;
+  background-color: #ededed;
+  width: 30px;
+  height: 25px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all ease-in-out 0.2s;
+}
+
+.card-content .card-btn:hover {
+  background-color: #2f8be0;
+}
+
+.card-content .card-btn .card-icon {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  width: 16px;
 }
