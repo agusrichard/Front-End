@@ -1,0 +1,153 @@
+html, body {
+  background-color: #fff;
+  font-family: 'Source Sans Pro', sans-serif;
+  overflow-x: hidden;
+  margin: 0px !important;
+  padding: 0px !important;
+}
+
+* {
+  text-decoration: none !important;
+}
+
+/* NAVIGATION BAR */
+.nav {
+  position: fixed;
+  display: flex;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 25px 0 25px;
+  background-color: #fff;
+  box-shadow: 0 19px 38px rgba(0,0,0,0.1);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.nav .links a {
+  margin-right: 25px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #000;
+}
+
+.nav .links .mainlink {
+  color: coral;
+}
+
+.nav h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-left: 25px;
+}
+
+
+/* LANDING PAGE */
+.landing {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10vw 0 10vw;
+  height: 100vh;
+  overflow-y: hidden;
+}
+
+.landing-text h1 {
+  font-size: 6vw;
+  margin: 0 !important;
+}
+
+.landing-text h3 {
+  margin: 6px !important;
+  font-size: 20px;
+  opacity: 0.3;
+  line-height: 30px;
+}
+
+.landing-text .btn {
+  width: 120px;
+  margin-top: 30px;
+  padding: 14px 20px 14px 20px;
+  background-color: #2f8be0;
+  border-radius: 45px;
+  text-align: center;
+}
+
+.landing-text .btn a {
+  font-size: 1.2vw;
+  color: #fff;
+}
+
+.landing-text .landing-span {
+  color: coral;
+  font-size: 4vw;
+}
+
+.landing-image img {
+  width: 28vw;
+}
+
+
+/* ABOUT */
+.about {
+  height: 650px;
+  padding: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  overflow: hidden;
+}
+
+.about-text {
+  position: relative;
+  padding: 0 50px;
+  height: inherit;
+}
+
+.about-text h1 {
+  position: relative;
+  left: 140px;
+}
+
+.about-text img {
+  width: 10vw;
+  position: absolute;
+  top: 50px;
+}
+
+.about-list {
+  width: 50%;
+}
+
+ol {
+  list-style: none;
+  color: coral;
+}
+
+ol li {
+  font-size: 38px;
+  position: relative;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #ebebeb
+}
+
+li p {
+  font-size: 18px;
+  color: #000;
+  padding-left: 60px;
+  line-height: 30px;
+  opacity: 0.6;
+}
+
+li span {
+  position: absolute;
+  line-height: 25px;
+  font-weight: 500;
+}
