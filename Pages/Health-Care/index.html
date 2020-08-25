@@ -6,7 +6,8 @@
 	<meta name="description" content="sometitle">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 	<title>Health Care -- Covid-19</title>
 </head>
 <body>
@@ -26,14 +27,14 @@
 
     <!-- LANDING PAGE -->
     <div class="landing">
-      <div class="landing-text">
+      <div class="landing-text" data-aos="fade-up" data-aos-duration="1000">
         <h1>Stay in <span class="landing-span">Stay Safe</span></h1>
         <h3>Lets all work together to put an end to this pandemic. <br> Help stop the spread.</h3>
         <div class="btn">
           <a href="#">Learn More</a>
         </div>
       </div>
-      <div class="landing-image">
+      <div class="landing-image" data-aos="fade-down" data-aos-duration="1000">
         <img src="img/bg.svg" alt="I am working">
       </div>
     </div>
@@ -41,11 +42,11 @@
 
     <!-- ABOUT SECTION -->
     <div class="about">
-      <div class="about-text">
+      <div class="about-text" data-aos="fade-up" data-aos-duration="1000">
         <h1>Why is it important that <br> <span style="color:#2f8be0;font-size:4vw">You Stay Home</span></h1>
         <img src="img/about.svg" alt="Doctor woman">
       </div>
-      <div class="about-list">
+      <div class="about-list" data-aos="fade-left" data-aos-duration="1000">
         <ol>
           <li>
             <span>01</span>
@@ -69,12 +70,12 @@
 
     <!-- INFO SECTION -->
     <div class="info">
-      <div class="info-header">
+      <div class="info-header" data-aos="fade-up" data-aos-duration="1000">
         <h1>Things you could do during the <br> <span style="color:coral">Coronavirus Quarantine</span></h1>
       </div>
       <div class="info-cards">
-        <div class="card one">
-          <img src="img/doctor-man.svg" alt="Doctor man" class="card-one-img">
+        <div class="card one" data-aos="fade-up" data-aos-duration="1000">
+          <img src="img/doctor-man.svg" alt="Doctor man" class="card-one-img" data-aos="fade-up" data-aos-duration="1100">
           <div class="card-bg-one"></div>
           <div class="card-content">
             <h2>Binge Watch</h2>
@@ -86,8 +87,8 @@
             </a>
           </div>
         </div>
-        <div class="card two">
-          <img src="img/remote-work-woman.svg" alt="Doctor woman" class="card-two-img">
+        <div class="card two" data-aos="fade-up" data-aos-duration="1300">
+          <img src="img/remote-work-woman.svg" alt="Doctor woman" class="card-two-img" data-aos="fade-up" data-aos-duration="1200">
           <div class="card-bg-two"></div>
           <div class="card-content">
             <h2>Learn a new skill</h2>
@@ -99,8 +100,8 @@
             </a>
           </div>
         </div>
-        <div class="card three">
-          <img src="img/mask-woman.svg" alt="Doctor woman" class="card-three-img">
+        <div class="card three" data-aos="fade-up" data-aos-duration="1600">
+          <img src="img/mask-woman.svg" alt="Doctor woman" class="card-three-img" data-aos="fade-up" data-aos-duration="1300">
           <div class="card-bg-three"></div>
           <div class="card-content">
             <h2>Learn a new skill</h2>
@@ -117,12 +118,12 @@
 
     <!-- BANNER AND FOOTER -->
     <div class="banner">
-      <div class="banner-text">
+      <div class="banner-text" data-aos="fade-right" data-aos-duration="1000">
         <h1>Download the HealthCare App Today <br> <span style="font-size:1.6vw;font-weight:normal" class="banner-inner-text">Stay Updated and get all your medical needs taken care of!</span></h1>
         <a href="#"><img src="img/android.png" alt=""></a>
         <a href="#"><img src="img/ios.png" alt=""></a>
       </div>
-      <div class="banner-img">
+      <div class="banner-img" data-aos="fade-up" data-aos-duration="1000">
         <img src="img/mask-woman.svg" alt="">
       </div>
     </div>
@@ -139,6 +140,10 @@
 
   </div>
 
-<script src="script.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script src="script.js"></script>
 </body>
 </html>
